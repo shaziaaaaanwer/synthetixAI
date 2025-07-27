@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+#  Synthetix AI
 
-## Getting Started
+Synthetix AI is a full-stack web platform that allows users to **generate, enhance, and visualize synthetic data** using the power of AI. Designed to solve the real-world problem of limited access to clean, domain-specific datasets, Synthetix AI empowers developers, startups, and enterprises to prototype and scale their data needs effortlessly.
 
-First, run the development server:
+##  Features
+
+-  **AI-Powered Dataset Generation**  
+  Generate realistic and structured synthetic datasets across multiple domains (e.g., healthcare, finance, ecommerce) using Genkit LLM prompts.
+
+-  **Dataset Enhancer**  
+  Clean, transform, and enrich messy datasets through AI-powered enhancement tools.
+
+-  **Data Visualization Assistant**  
+  Input natural language queries and receive instant data charts using advanced parsing and AI interpretation.
+
+-  **Prompt Marketplace (Store)**  
+  Share, discover, and reuse prompt templates with the Synthetics AI community.
+
+-  **Team Workspace**  
+  Collaborate on data generation projects in real-time with teammates — perfect for remote teams and research groups.
+
+---
+
+##  Tech Stack
+
+| Frontend       | Backend        | AI Tools        | Dev Tools        |
+|----------------|----------------|------------------|------------------|
+| Next.js        | Node.js        | Genkit (Google)  | Firebase Hosting |
+| Tailwind CSS   | Express.js     | LLMs via Genkit  | Firestore        |
+| TypeScript     | REST API       | Prompt Parsers   | Recharts         |
+
+>  Fully deployed using **Vercel** and optimized for modern browsers.
+
+---
+
+##  Installation
 
 ```bash
+git clone https://github.com/shaziaaaaanwer/synthetix-ai.git
+cd synthetics-ai
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
+Make sure to set your Firebase project config in .env.local.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+##  Usage
+**Generate a Dataset**: Choose a domain, input your prompt, and hit generate.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**Enhance Data**: Upload or paste a raw dataset and apply transformations.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+**Visualize**: Ask any analytical question in plain English and get graphs instantly.
 
-## Learn More
+**Collaborate**: Use the workspace to invite teammates.
 
-To learn more about Next.js, take a look at the following resources:
+**Discover Prompts**: Browse the Store to find useful pre-made prompts.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📽️ Demo Video
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+[▶️ Watch the Demo](https://youtu.be/gUkKDvmlvo0)
 
-## Deploy on Vercel
+##  Why Synthetix AI?
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Real data is expensive. Privacy laws are tightening. Yet AI innovation demands more data than ever.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Synthetix AI bridges that gap** by making high-quality synthetic datasets accessible, customizable, and shareable. Whether you're building a model, testing your app, or preparing training data — this tool gives you a massive head-start.
+
+##  Contributing
+
+Pull requests are welcome! If you'd like to contribute major changes or build plugins for other domains, please open an issue first to discuss it.
+
+##  Acknowledgements
+
+Built during a hackathon with ❤️ using:
+
+- [Next.js](https://nextjs.org/)
+- [Genkit by Google](https://github.com/google/genkit)
+- [Recharts](https://recharts.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+
+---
+
+ **If you like the project, don't forget to star the repo!**
